@@ -1,0 +1,91 @@
+<html>
+
+
+    <title>Paragraphs</title>
+
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+        <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+
+        <link rel="stylesheet" type="text/css" href="style.css">
+        
+</head>
+
+    <body>
+        <div class="container">
+        <center>
+
+        <h1>Creating Paragraphs Using Join Functions</h1>
+
+        <div style="float: left;">
+         <h4><span>1.</span>
+        <input type="text" id="paral_input_1" placeholder="input box 1">
+        <br><br>
+
+        <span>2.</span>
+        <input type="text" id="paral_input_2" placeholder="input box 2">
+        <br><br>
+
+        <span>3.</span>
+        <input type="text" id="paral_input_3" placeholder="input box 3">
+        <br><br>
+
+        <span>4.</span>
+        <input type="text" id="paral_input_4" placeholder="input box 4">
+        <br><br>
+
+        <span>5.</span>
+        <input type="text" id="paral_input_5" placeholder="input box 5">
+        <br><br>
+
+        <span>5.</span>
+        <input type="text" id="paral_input_6" placeholder="input box 6">
+        <br><br>
+        </h4>
+        <button class="btn btn-primary" onclick="get_paragraph()">Get Paragraph 1</button>
+        </div>
+
+        <div style="float: right;">
+            <h4><span>1.</span>
+           <input type="text" id="para2_input_1" placeholder="input box 1">
+           <br><br>
+   
+           <span>2.</span>
+           <input type="text" id="para2_input_2" placeholder="input box 2">
+           <br><br>
+   
+           <span>3.</span>
+           <input type="text" id="para2_input_3" placeholder="input box 3">
+           <br><br>
+   
+           <span>4.</span>
+           <input type="text" id="para2_input_4" placeholder="input box 4">
+           <br><br>
+   
+           <span>5.</span>
+           <input type="text" id="para2_input_5" placeholder="input box 5">
+           <br><br>
+   
+           <span>5.</span>
+           <input type="text" id="para2_input_6" placeholder="input box 6">
+           <br><br>
+           </h4>
+           <button class="btn btn-primary" onclick="get_paragraph2()">Get Paragraph 2</button>
+           </div>
+    
+    </center>
+    <br>
+    <h1 id="show_paragraph1"></h1>
+    <h1 id="show_paragraph2"></h1>
+</div>
+    </body>
+
+    
+    <script src="main.js"></script>
+
